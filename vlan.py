@@ -14,6 +14,7 @@ vlan_list = file.readlines()
 for vlan_id in vlan_list: 
     result = connect.api("vlans").delete(vlan_id)
 
+# Result is only a Boolean, it doesn't include any details of success or failure
     if result == True:
         print("Successfully deleted VLAN", vlan_id)
 
