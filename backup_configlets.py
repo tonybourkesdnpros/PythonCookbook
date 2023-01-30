@@ -7,7 +7,7 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 cvp = "192.168.0.5"
 cvp_user = "arista"
-cvp_pw = "aristakysb"
+cvp_pw = "arista123"
 
 client = CvpClient()
 
